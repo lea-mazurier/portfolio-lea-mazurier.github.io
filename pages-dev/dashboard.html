@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projets Web</title>
+    <link href="../bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script  src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="../index.html" class="logo"><img src="../images/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="../index.html#apropos">À propos</a></li>
+            <li><a href="../index.html#projets">Projets</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section id="projet-details">
+      <div class="container-fluid">
+        <h1>Dashboard</h1>
+        <p id="descr2">Le but de la SAE 303 était de créer un dahboard. Pour représenter la consommation d'energie 
+          du département du Lot et de la région de l'Occitanie selon les opérateurs Enedis GRDF et RTE.
+        <!-- </br>
+        </br>
+          Voici le lien vers le site : <a class="story" href="https://mazurle2.tpweb.univ-rouen.fr/sae303-mazurier/dashboard.php" target="_blank">Dashboard</a> -->
+          </p>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5">
+            <h2>Le dashboard</h2>
+            <p id="p1">Voici à quoi ressemble le visuel site, il a été mis en forme grâce à Bootstrap.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel1" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="../images/dev/capture1.JPG" target="_blank"><img src="../images/dev/capture1.JPG" class="d-block w-75 mx-auto carousel-image" height="400px" alt="Image 1"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="../images/dev/capture2.JPG" target="_blank"><img src="../images/dev/capture2.JPG" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Le code du site</h2>
+            <p id="p1">Voici quelques exemples de requêtes PHP qui servent à extraire les données 
+              des deux base de données MySQL pour ensuite les ajouter dans les représentations.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel2" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a class="story" href="../images/dev/requetes.JPG" target="_blank"><img src="../images/dev/requetes.JPG" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/requetes2.JPG" target="_blank"><img src="../images/dev/requetes2.JPG" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Google chart + javascript</h2>
+            <p id="p1">Voici des exemples de code pour les représentations google chart et javascript.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel3" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="story" href="../images/dev/google-chart.JPG" target="_blank"><img src="../images/dev/google-chart.JPG" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/exemple-google.JPG" target="_blank"><img src="../images/dev/exemple-google.JPG" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <a href="https://www.linkedin.com/in/léa-mazurier" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn"></a>
+      <a href="mailto:leamazurier.25@gmail.com"><img src="../images/gmail.png" alt="Email"></a>
+      <p>&copy; 2025 Mazurier Léa. Tous droits réservés.</p>
+  </footer>
+
+  <a href="#projet-details" class="scroll-top">
+    <img src="../images/up-arrow.png" alt="Retour en haut">
+</a>
+
+</body>
+</html>

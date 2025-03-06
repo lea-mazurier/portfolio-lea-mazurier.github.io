@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projets Web</title>
+    <link href="../bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script  src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="../index.html" class="logo"><img src="../images/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="../index.html#apropos">À propos</a></li>
+            <li><a href="../index.html#projets">Projets</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section id="projet-details">
+      <div class="container-fluid">
+        <h1>Bug Tracker</h1>
+        <p id="descr2">Le but de la SAE 203 était de créer un site de bugtracker. Pour cela il y a 
+          3 rôles différents un administrateur, des testeurs et des développeurs. Ce site a été réalisé
+           grâce au langage html pour les formulaires et php pour tout le reste.
+          <br>
+          <br>
+          Cette SAE m'a permis de mettre en pratique et regrouper tous ce que j'avais appris durant cette première année.
+          </p>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5">
+            <h2>base de données + MCD et MLD</h2>
+            <p id="p1">Voici les 2 tables de la base de données MySQL ainsi que le MCD et le MLD de celle-ci.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel1" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a class="story" href="../images/dev/table-ticket.JPG.jpg" target="_blank"><img src="../images/dev/table-ticket.JPG.jpg" class="d-block w-75 mx-auto carousel-image" height="400px" alt="Image 1"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/table-user.JPG.jpg" target="_blank"><img src="../images/dev/table-user.JPG.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/MCD.png" target="_blank"><img src="../images/dev/MCD.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/MLD.png" target="_blank"><img src="../images/dev/MLD.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Page d'authentification</h2>
+            <p id="p1">Pour l'authentification dans le site on récupère tout d'abord les login et les mots 
+              de passe stockés dans la base de données grâce à une requête sql et ceux rentrés dans le formulaire.
+              <br>
+              <br>
+              Puis on vérifie si les login et mot de passe rentrés dans le site correspondent à ceux de la 
+              base de données pour ensuite envoyer sur la bonne page et créer une session avec les if else.
+              <br>
+              <br>
+              La connexion à la base de données a été faite avec l'extension PDO qui est inclus dans PHP.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel2" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a class="story" href="../images/dev/accueil.JPG.jpg" target="_blank"><img src="../images/dev/accueil.JPG.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/connexion.jpg" target="_blank"><img src="../images/dev/connexion.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/connect-bdd.jpg" target="_blank"><img src="../images/dev/connect-bdd.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Page testeur + affichage tickets</h2>
+            <p id="p1">Etant donné que l'affichage des tickets se fait sur chaque page j'ai utilisé
+               la fonction include de PHP afin de ne pas avoir à écrire le même code sur chaque page. 
+               De plus cela me permet de modifier plusieurs pages en ne modifiant qu'un seul code.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel3" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="story" href="../images/dev/test.jpg" target="_blank"><img src="../images/dev/test.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/affichage-tickets.jpg" target="_blank"><img src="../images/dev/affichage-tickets.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Page admin</h2>
+            <p id="p1">Voici le code du formulaire de la page administrateur qui est codé en html.
+              <br>
+              <br>
+              Les formulaires des autres pages ressemblent à celui ci, il n'y est seulement 
+              pas demander les mêmes informations.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel4" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="story" href="../images/dev/admin.jpg" target="_blank"><img src="../images/dev/admin.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/formulaire-admin.jpg" target="_blank"><img src="../images/dev/formulaire-admin.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Page développeur + effacer/ajouter ticket</h2>
+            <p id="p1">Voici les codes pour ajouter et effacer des tickets qui utilisent les 
+              requêtes sql pour modifier la base de données.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel5" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="story" href="../images/dev/dev.jpg" target="_blank"><img src="../images/dev/dev.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/efface-tickets.jpg" target="_blank"><img src="../images/dev/efface-tickets.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/ajouter-ticket.jpg" target="_blank"><img src="../images/dev/ajouter-ticket.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <a href="https://www.linkedin.com/in/léa-mazurier" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn"></a>
+      <a href="mailto:leamazurier.25@gmail.com"><img src="../images/gmail.png" alt="Email"></a>
+      <p>&copy; 2025 Mazurier Léa. Tous droits réservés.</p>
+  </footer>
+
+  <a href="#projet-details" class="scroll-top">
+    <img src="../images/up-arrow.png" alt="Retour en haut">
+</a>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Projets Web</title>
+    <link href="../bootstrap-5.3.2-dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <script  src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="projet.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+        <a href="../index.html" class="logo"><img src="../images/logo.png" alt="Logo"></a>
+        <ul>
+            <li><a href="../index.html#apropos">À propos</a></li>
+            <li><a href="../index.html#projets">Projets</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <section id="projet-details">
+      <div class="container-fluid">
+        <h1>Wordpress</h1>
+        <p id="descr2">Ce projet WordPress m’a permis d’approfondir ma compréhension du fonctionnement de la plateforme.
+          </br>
+          </br>
+           Voici le lien vers le site : <a class="story" href="" target="_blank">En construction</a>
+          </p>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5">
+            <h2>CPT et CT</h2>
+            <p id="p1">J'ai appris à utiliser les Custom Post Types (CPT) et les Custom Taxonomies (CT). Qui sont respectivement des catégories générales et un moyen de classer et de relier le contenu dans WordPress.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel1" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a class="story" href="../images/dev/cpt.png" target="_blank"><img src="../images/dev/cpt.png" class="d-block w-75 mx-auto carousel-image" height="400px" alt="Image 1"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a class="story" href="../images/dev/cpt1.png" target="_blank"><img src="../images/dev/cpt1.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>ACF</h2>
+            <p id="p1"> J'ai également intégré les Advanced Custom Fields (ACF) grâce à l'installation du plug-in dédié qui enrichit la création de contenu en permettant 
+              d'ajouter facilement des champs personnalisés.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <a class="story" href="../images/dev/acf.png" target="_blank"><img src="../images/dev/acf.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Les hooks</h2>
+            <p id="p1">Par la suite, j'ai exploré l'utilisation des hooks, qui sont des fonctions déclarées par le développeur de thème ou d’extension qui permettent 
+              d’interagir avec le coeur de WordPress, d’autres thèmes ou extensions et lancés à des moments clés de leur exécution. 
+              J'ai notamment utiliser un hook pour insérer une bannière publicitaire avant chaque titre H2 dans un article, à partir du deuxième titre.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <a class="story" href="../images/dev/hook.png" target="_blank"><img src="../images/dev/hook.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Les performances</h2>
+            <p id="p1">J'ai aussi appris à optimiser les performances du site WordPress, en prêtant attention aux images et vidéos, 
+              à la structure du DOM, au cache et à la configuration du serveur. Pour mesurer les performances du site, 
+              nous avons utilisé des outils comme Lighthouse et GTMetrix. Par exemple, pour optimiser les images, nous avons 
+              utilisé le plug-in Imagify, intégré directement dans WordPress.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+            <div id="carousel4" class="carousel slide mx-auto" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a class="story" href="../images/dev/lighthouse.jpg" target="_blank"><img src="../images/dev/lighthouse.jpg" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a class="story" href="../images/dev/imagify.png" target="_blank"><img src="../images/dev/imagify.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center creation">
+          <div class="col-md-5 ">
+            <h2>Les plug-in personnalisés</h2>
+            <p id="p1"> Enfin, j'ai créé mon premier plug-in personnalisé, ce qui m'a permis de mieux comprendre son fonctionnement 
+              et l’importance de son en-tête. Ce plug-in permet d'afficher l'heure à laquelle la page à été cahrgée. Je l'ai réalisé en utilisant un short-code.</p>
+          </div>
+
+          <div class="offset-md-1 col-md-5 colonne">
+                  <a class="story" href="../images/dev/plugin.png" target="_blank"><img src="../images/dev/plugin.png" class="d-block w-75 mx-auto carousel-image" alt="Image 2"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <a href="https://www.linkedin.com/in/léa-mazurier" target="_blank"><img src="../images/linkedin.png" alt="LinkedIn"></a>
+      <a href="mailto:leamazurier.25@gmail.com"><img src="../images/gmail.png" alt="Email"></a>
+      <p>&copy; 2025 Mazurier Léa. Tous droits réservés.</p>
+  </footer>
+
+  <a href="#projet-details" class="scroll-top">
+    <img src="../images/up-arrow.png" alt="Retour en haut">
+</a>
+
+</body>
+</html>
